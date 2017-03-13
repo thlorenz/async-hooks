@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Volumes/d/dev/ns/nsolid/nsolid-node/out/Release/nsolid',
+1 verbose cli   '/Users/thlorenz/npm-global/bin/npm',
+1 verbose cli   'info',
+1 verbose cli   'grama' ]
+2 info using npm@2.15.11
+3 info using node@v6.7.0
+4 silly mapToRegistry name grama
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'grama',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'grama',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/grama
+9 verbose request uri https://registry.npmjs.org/grama
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 1:03:38 PM
+12 verbose request using bearer token for auth
+13 verbose request id 96203da18f2da55b
+14 http request GET https://registry.npmjs.org/grama
+15 http 200 https://registry.npmjs.org/grama
+16 verbose headers { server: 'nginx/1.10.1',
+16 verbose headers   'content-type': 'application/json',
+16 verbose headers   'last-modified': 'Mon, 25 Aug 2014 13:32:52 GMT',
+16 verbose headers   etag: 'W/"53fb3b04-36f"',
+16 verbose headers   'content-encoding': 'gzip',
+16 verbose headers   'cache-control': 'max-age=300',
+16 verbose headers   'transfer-encoding': 'chunked',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   date: 'Mon, 27 Feb 2017 19:03:38 GMT',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'x-served-by': 'cache-dfw1825-DFW',
+16 verbose headers   'x-cache': 'MISS',
+16 verbose headers   'x-cache-hits': '0',
+16 verbose headers   'x-timer': 'S1488222218.501239,VS0,VE200',
+16 verbose headers   vary: 'Accept-Encoding' }
+17 silly get cb [ 200,
+17 silly get   { server: 'nginx/1.10.1',
+17 silly get     'content-type': 'application/json',
+17 silly get     'last-modified': 'Mon, 25 Aug 2014 13:32:52 GMT',
+17 silly get     etag: 'W/"53fb3b04-36f"',
+17 silly get     'content-encoding': 'gzip',
+17 silly get     'cache-control': 'max-age=300',
+17 silly get     'transfer-encoding': 'chunked',
+17 silly get     'accept-ranges': 'bytes',
+17 silly get     date: 'Mon, 27 Feb 2017 19:03:38 GMT',
+17 silly get     via: '1.1 varnish',
+17 silly get     connection: 'keep-alive',
+17 silly get     'x-served-by': 'cache-dfw1825-DFW',
+17 silly get     'x-cache': 'MISS',
+17 silly get     'x-cache-hits': '0',
+17 silly get     'x-timer': 'S1488222218.501239,VS0,VE200',
+17 silly get     vary: 'Accept-Encoding' } ]
+18 verbose get saving grama to /Users/thlorenz/.npm/registry.npmjs.org/grama/.cache.json
+19 verbose correctMkdir /Users/thlorenz/.npm correctMkdir not in flight; initializing
+20 verbose stack Error: Unpublished by hawk on 2014-10-26T02:02:37.319Z
+20 verbose stack     at /Users/thlorenz/npm-global/lib/node_modules/npm/lib/view.js:108:14
+20 verbose stack     at saved (/Users/thlorenz/npm-global/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+20 verbose stack     at /Users/thlorenz/npm-global/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+20 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+21 verbose statusCode 404
+22 verbose pkgid grama
+23 verbose cwd /Volumes/d/dev/js/async-hooks
+24 error Darwin 16.4.0
+25 error argv "/Volumes/d/dev/ns/nsolid/nsolid-node/out/Release/nsolid" "/Users/thlorenz/npm-global/bin/npm" "info" "grama"
+26 error node v6.7.0
+27 error npm  v2.15.11
+28 error code E404
+29 error 404 Unpublished by hawk on 2014-10-26T02:02:37.319Z
+29 error 404
+29 error 404 'grama' is not in the npm registry.
+29 error 404 You should bug the author to publish it (or use the name yourself!)
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, http url, or git url.
+30 verbose exit [ 1, true ]
